@@ -9,7 +9,7 @@ let toggleMobileNav = () => {
 
 <template>
   <!-- Navbar starts -->
-  <div class="container mx-auto px5">
+  <div class="container mx-auto px-5">
     <header class="flex justify-between py-12 items-center">
       <div>
         <a href="/"><img src="/images/logo-bookmark.svg" alt="Site Logo" /></a>

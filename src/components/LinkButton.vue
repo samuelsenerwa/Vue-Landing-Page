@@ -17,8 +17,8 @@ const props = defineProps({
     :class="class"
     class="font-theme-heading font-medium bg-theme-primary px-6 py-2 text-white rounded shadow-md hover:bg-white border-2 border-transparent hover:border-theme-primary hover:text-theme-primary cursor-pointer transition duration-200 mr-5"
   >
+    <slot></slot>
   </a>
-  <slot></slot>
   <a
     v-if="btnType === 'muted'"
     :href="link"
